@@ -1,14 +1,24 @@
 Run
-```node server.js```
+```
+node server.js
+```
 
-```http://localhost:3000/```
+```
+http://localhost:3000/
+```
 
 Deploy to Vercel
-```vercel login```
-```vercel```
+```
+vercel login
+```
+```
+vercel
+```
 
 Update to Vercel
-```vercel --prod```
+```
+vercel --prod
+```
 
 Push to Github
 ```
