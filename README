@@ -1,0 +1,13 @@
+```node server.js```
+
+```http://localhost:3000/```
+
+### Generate robots.txt and sitemap.xml files and place them in the root directory of the project.
+```node generate-sitemap-robots.js```
+
+
+```vercel login```
+
+```vercel```
+
+```vercel --prod```

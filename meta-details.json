@@ -1,0 +1,109 @@
+{
+    "en": {
+        "charset": {
+            "description": "Defines the character encoding for the document.",
+            "detail": "Example: <meta charset=\"UTF-8\">",
+            "importance": 4
+        },
+        "viewport": {
+            "description": "Viewport settings for responsive design.",
+            "detail": "Example: <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "importance": 4
+        },
+        "description": {
+            "description": "Page description to help search engines generate summaries.",
+            "detail": "Example: <meta name=\"description\" content=\"This is a sample page demonstrating the use of meta tags.\">",
+            "importance": 5
+        },
+        "keywords": {
+            "description": "Keywords related to the page content for search engine optimization (SEO).",
+            "detail": "Example: <meta name=\"keywords\" content=\"sample, meta tags, HTML, SEO\">",
+            "importance": 3
+        },
+        "author": {
+            "description": "Author information of the document.",
+            "detail": "Example: <meta name=\"author\" content=\"Your Name\">",
+            "importance": 2
+        },
+        "X-UA-Compatible": {
+            "description": "Specifies the latest rendering mode for IE browser.",
+            "detail": "Example: <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">",
+            "importance": 3
+        },
+        "theme-color": {
+            "description": "Sets the theme color, some browsers use this for the title bar color.",
+            "detail": "Example: <meta name=\"theme-color\" content=\"#317EFB\">",
+            "importance": 3
+        },
+        "og:type": {
+            "description": "Defines the page type as a website, Open Graph protocol.",
+            "detail": "Example: <meta property=\"og:type\" content=\"website\">",
+            "importance": 3
+        },
+        "og:title": {
+            "description": "Defines the page title, Open Graph protocol.",
+            "detail": "Example: <meta property=\"og:title\" content=\"Sample Meta Tag\">",
+            "importance": 5
+        },
+        "og:description": {
+            "description": "Defines the page description, Open Graph protocol.",
+            "detail": "Example: <meta property=\"og:description\" content=\"This is a sample page demonstrating the use of meta tags.\">",
+            "importance": 5
+        },
+        "og:url": {
+            "description": "Defines the page URL, Open Graph protocol.",
+            "detail": "Example: <meta property=\"og:url\" content=\"https://example.com\">",
+            "importance": 3
+        },
+        "og:image": {
+            "description": "Defines the image to display when sharing, Open Graph protocol.",
+            "detail": "Example: <meta property=\"og:image\" content=\"https://example.com/image.jpg\">",
+            "importance": 5
+        },
+        "twitter:card": {
+            "description": "Defines the type of Twitter card as a large image summary.",
+            "detail": "Example: <meta name=\"twitter:card\" content=\"summary_large_image\">",
+            "importance": 4
+        },
+        "twitter:title": {
+            "description": "Defines the title of the Twitter card.",
+            "detail": "Example: <meta name=\"twitter:title\" content=\"Sample Meta Tag\">",
+            "importance": 4
+        },
+        "twitter:description": {
+            "description": "Defines the description of the Twitter card.",
+            "detail": "Example: <meta name=\"twitter:description\" content=\"This is a sample page demonstrating the use of meta tags.\">",
+            "importance": 4
+        },
+        "twitter:image": {
+            "description": "Defines the image of the Twitter card.",
+            "detail": "Example: <meta name=\"twitter:image\" content=\"https://example.com/image.jpg\">",
+            "importance": 4
+        },
+        "refresh": {
+            "description": "Sets the page to redirect to a specified URL after a specified time.",
+            "detail": "Example: <meta http-equiv=\"refresh\" content=\"30;url=https://example.com\">",
+            "importance": 2
+        },
+        "expires": {
+            "description": "Sets the expiration date and time of the page.",
+            "detail": "Example: <meta http-equiv=\"expires\" content=\"Wed, 21 Oct 2024 07:28:00 GMT\">",
+            "importance": 2
+        },
+        "referrer": {
+            "description": "Sets the Referrer policy to not send referrer information.",
+            "detail": "Example: <meta name=\"referrer\" content=\"no-referrer\">",
+            "importance": 3
+        },
+        "apple-mobile-web-app-status-bar-style": {
+            "description": "Sets the status bar style on Apple devices.",
+            "detail": "Example: <meta name=\"apple-mobile-web-app-status-bar-style\" content=\"black-translucent\">",
+            "importance": 2
+        },
+        "robots": {
+            "description": "Sets the rules for search engine crawling, allowing indexing and following links on the page.",
+            "detail": "Example: <meta name=\"robots\" content=\"index, follow\">",
+            "importance": 4
+        }
+    }
+}

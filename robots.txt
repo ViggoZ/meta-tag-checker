@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /api/
+Disallow: /node_modules/
+
+Sitemap: https://www.metatagchecker.com/sitemap.xml

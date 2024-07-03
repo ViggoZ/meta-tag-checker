@@ -1,0 +1,133 @@
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #2563eb;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: -305px; /* 调整这个值以适应你的需求 */
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.star {
+    color: gold;
+}
+
+#toast {
+    visibility: hidden;
+    min-width: 250px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 12px;  /* 添加圆角 */
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+    font-size: 17px;
+    white-space: nowrap;
+}
+
+#toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+}
+
+.max-width-200 {
+    max-width: 200px; /* 你希望的最大宽度 */
+  }
+
+
+  .min-width-300 {
+    min-width: 300px; /* 你希望的最大宽度 */
+  }
+
+  .url-tab {
+    margin-right: -1px;
+    padding-left: 24px;
+    display: flex;
+    align-items: center;
+    height: 32px;
+    min-width: 0px;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    position: relative;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* border-width: 1px; */
+    border-left: 2px;
+    border-top: 2px;
+    border-bottom: 2px;
+    border-style: solid;
+    -o-border-image: initial;
+    border-image: initial;
+    border-color: inherit;
+    background: inherit;
+    width: 100%;
+    background-color: white;
+    border-color: #e0eafd;
+    /* border-radius: 6px; */
+    border-radius: 6px 0px 0px 6px;
+    font-size: 16px;
+    color: #333333;
+    height: 66px;
+  }
+
+  .lh-1-2{
+    line-height: 1.2;
+  }

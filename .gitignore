@@ -1,0 +1,53 @@
+# Node modules
+node_modules/
+
+# Vercel configuration
+.vercel/
+
+# VSCode configuration
+.vscode/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul (if applicable)
+coverage/
+
+# nyc test coverage (if applicable)
+.nyc_output/
+
+# Dependency directories (if applicable)
+jspm_packages/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel build output (if applicable)
+dist/
